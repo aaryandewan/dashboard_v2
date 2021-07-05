@@ -5,6 +5,7 @@ import Dashboard from "./components/Dashboard";
 import Xcards from "./components/Xcards";
 import Graphs from "./components/Graphs";
 import MainPaper from "./components/MainPaper";
+import TableData from "./components/TableData";
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <Dashboard />
       <Xcards />
       <MainPaper />
+      <TableData />
       {/* <Graphs /> */}
     </div>
   );

@@ -45,7 +45,13 @@ export default function SimpleCard() {
         alignItems="center"
         direction="column"
       >
-        <Grid item container justify="center" alignItems="center" spacing={5}>
+        <Grid
+          item
+          container
+          justify="space-around"
+          alignItems="center"
+          spacing={5}
+        >
           <Grid item xs={12} sm={3}>
             <Card className={classes.root}>
               <CardContent>

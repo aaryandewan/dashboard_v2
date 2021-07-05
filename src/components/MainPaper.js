@@ -76,8 +76,8 @@ export default function MainPaper() {
               flexDirection: "column",
             }}
           >
-            <span>Quaterly Sales</span>
-            <span style={{ fontSize: "25px" }}>January 2021 - March 2021</span>
+            <span>Employee Feedback</span>
+            <span style={{ fontSize: "25px" }}>All software developers</span>
           </div>
           <CardContent>
             {/* Card */}
